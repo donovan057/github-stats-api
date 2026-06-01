@@ -13,5 +13,5 @@ def main():
         f.write(svg_content)
     print("Fichier stats.svg généré avec succès !")
 
-if __name__ == "__name__":
+if __name__ == "__main__":
     main()
