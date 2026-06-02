@@ -5,6 +5,9 @@ def main():
     # 1. Récupère les données
     data = fetch_github_data("donovan057")
 
+    # ICI : on affiche le contenu de 'data' pour le débogage
+    print(f"DEBUG: Données complètes reçues : {data}")
+
     # 2. Génère le SVG
     svg_content = generate_svg(data)
 
