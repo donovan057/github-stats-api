@@ -28,7 +28,7 @@ jobs:
             - name: Run generation script
               run: python generate_svg_file.py
               env: 
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                GITHUB_TOKEN: ${{ secrets.MY_PATH }}
 
             - name: Commit and push changes
               run: |
